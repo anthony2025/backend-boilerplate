@@ -2,6 +2,10 @@
 
 Minimal REST server with GraphQL support.
 
+## In Progress
+
+* GraphQL
+
 ### Acknowledgments
 
 * **Sandro Sanchez** - *Initial work, fork and guidance* - [sandropucp](https://github.com/sandropucp)
