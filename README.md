@@ -1,6 +1,6 @@
 # This is meant simply as a boilerplate for future projects
 
-Minimal REST server with GraphQL support.
+Minimal Node/Mongo/Express REST API with upcoming GraphQL support.
 
 ## In Progress
 
