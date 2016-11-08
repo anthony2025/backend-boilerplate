@@ -1,4 +1,7 @@
 {
+  "name": "mern-todo-server",
+  "version": "0.1.0",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -14,17 +17,6 @@
     "test": "snazzy"
   },
   "standard": {
-    "globals": ["db"],
-    "env": ["node", "es6"]
-  },
-  "main": "app.js",
-  "name": "todo-server",
-  "version": "0.0.1",
-  "author": "Anthony Ascencio",
-  "license": "CC0-1.0",
-  "description": "Minimal REST server with GraphQL support",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/anthony2025/todo-server.git"
+    "globals": ["db"]
   }
 }
