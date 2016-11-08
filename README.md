@@ -1,6 +1,4 @@
-# This is meant simply as a boilerplate for future projects
-
-Minimal MERN REST API with upcoming GraphQL support.
+Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
 
 ## In Progress
 
