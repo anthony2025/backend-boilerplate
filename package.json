@@ -12,8 +12,6 @@
     "start": "node app.js"
   },
   "standard": {
-    "globals": [
-      "db"
-    ]
+    "globals": ["db"]
   }
 }
