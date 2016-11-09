@@ -7,14 +7,12 @@ const express = require('express')
 const app = express()
 
 // setting up environment variables
-const appPort = process.env.appPort || 4000
-const dbURI = process.env.dbURI || require('./config/env-variables').dbURI
+require('dotenv').config({silent: true})
+const PORT = process.env.appPort || 4000
+const DBURI = process.env.DBURI || 'mongodb://localhost/tododb'
 
 // setting up mongoose
-mongoose.connect(dbURI)
-
-// setting up the homepage
-app.use('/', express.static('client/public'))
+mongoose.connect(DBURI)
 
 // setting up bodyParser
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -24,5 +22,8 @@ app.use(bodyParser.json())
 const taskRouter = require('./routes/task-router')
 app.use('/api/tasks', taskRouter)
 
+// setting up a homepage
+app.get('/', (req, res) => res.send('Try localhost:' + PORT + '/api/tasks'))
+
 // setting up the express server
-app.listen(appPort, () => console.log('App running on port: ' + appPort))
+app.listen(PORT, () => console.log('App running on port: ' + PORT))

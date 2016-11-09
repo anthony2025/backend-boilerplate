@@ -11,7 +11,7 @@ Thumbs.db
 .vscode
 jsconfig.json
 dist
-config-*
+*.env
 bundle*
 npm-debug.log
 yarn-error.log
