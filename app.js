@@ -8,7 +8,7 @@ const app = express()
 
 // setting up environment variables
 require('dotenv').config({silent: true})
-const PORT = process.env.appPort || 4000
+const PORT = process.env.PORT || 4000
 const DBURI = process.env.DBURI || 'mongodb://localhost/tododb'
 
 // setting up mongoose
