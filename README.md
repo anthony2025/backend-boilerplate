@@ -3,6 +3,7 @@ Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerpl
 ## In Progress
 
 * GraphQL
+* CORS support
 
 ### Acknowledgments
 
