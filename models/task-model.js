@@ -1,5 +1,3 @@
-'use strict'
-
 // load up mongoose and set the promise library to es6
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise

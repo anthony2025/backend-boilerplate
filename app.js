@@ -1,5 +1,3 @@
-'use strict'
-
 // require dependencies
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
