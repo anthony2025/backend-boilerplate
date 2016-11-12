@@ -1,5 +1,7 @@
 Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
 
+Live at https://mern-todo-server.herokuapp.com/
+
 ## In Progress
 
 * GraphQL
