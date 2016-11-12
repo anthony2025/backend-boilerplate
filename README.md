@@ -1,11 +1,14 @@
 Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
 
-Live at https://mern-todo-server.herokuapp.com/
+Live at https://mern-boilerplate-server.herokuapp.com/
 
 ## In Progress
 
 * GraphQL
 * CORS support
+
+### Example usage
+* https://mern-boilerplate-server.herokuapp.com/api/tasks/
 
 ### Acknowledgments
 
