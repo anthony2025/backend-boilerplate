@@ -1,3 +1,5 @@
+## In Progress
+
 Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
 
 Live at https://mern-boilerplate-server.herokuapp.com/
