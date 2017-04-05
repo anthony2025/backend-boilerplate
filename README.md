@@ -1,4 +1,4 @@
-Node/Express rest API boilerplate with upcoming GraphQL support. Meant as a boilerplate for future projects.
+Node rest API boilerplate with upcoming GraphQL support. Meant as a boilerplate for future projects.
 Live at https://mern-boilerplate-server.herokuapp.com/
 
 ### TODO
