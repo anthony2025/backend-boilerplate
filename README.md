@@ -1,10 +1,7 @@
-## In Progress
-
-Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
-
+Node/Express rest API boilerplate with upcoming GraphQL support. Meant as a boilerplate for future projects.
 Live at https://mern-boilerplate-server.herokuapp.com/
 
-### In Progress
+### TODO
 * GraphQL
 * CORS support
 
@@ -20,7 +17,7 @@ Live at https://mern-boilerplate-server.herokuapp.com/
 }
 
 ### Acknowledgments
-* **Sandro Sanchez** - *Initial work, fork and guidance* - [sandropucp](https://github.com/sandropucp)
+* **Sandro Sanchez** - *fork and guidance* - [sandropucp](https://github.com/sandropucp)
 
 <br>
 
